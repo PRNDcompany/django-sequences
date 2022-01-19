@@ -6,7 +6,7 @@ class Sequence(models.Model):
 
     name = models.CharField(
         verbose_name=_("name"),
-        max_length=100,
+        max_length=300,
         primary_key=True,
     )
 
